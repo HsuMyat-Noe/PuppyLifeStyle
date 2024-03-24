@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppy Lifestyle</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid bg-warning min-vh-100 w-100 d-flex flex-column justify-content-center align-items-center">
+        <h1 class="mb-4">Puppy Clock</h1>
+        <p>I can haz time??</p>
+        <h2 id="clock"></h2>
+
+        <img src="./img/puppy-normal.jpg" class="img-thumbnail d-block w-25 h-25 puppy-img" id="puppy-img" alt="Normal Party">
+        <blockquote id="quote">Hello</blockquote>
+
+        <div class="d-flex mb-2">
+            <label for="wakeup-time" class="pe-2">Set Wakeup Time</label>
+            <select name="" id="wakeup-time">
+                <option value="1">1AM - 2AM</option>
+                <option value="2">2AM - 3AM</option>
+                <option value="3">3AM - 4AM</option>
+                <option value="4">4AM - 5AM</option>
+                <option value="5">5AM - 6AM</option>
+                <option value="6">6AM - 7AM</option>
+                <option value="7" selected>7AM - 8AM</option>
+                <option value="8">8AM - 9AM</option>
+                <option value="9">9AM - 10AM</option>
+                <option value="10">10AM - 11AM</option>
+                <option value="11">11AM - 12PM</option>
+                <option value="12">12PM - 1PM</option>
+                <option value="13">1PM - 2PM</option>
+                <option value="14">2PM - 3PM</option>
+                <option value="15">3PM - 4PM</option>
+                <option value="16">4PM - 5PM</option>
+                <option value="17">5PM - 6PM</option>
+                <option value="18">6PM - 7PM</option>
+                <option value="19">7PM - 8PM</option>
+                <option value="20">8PM - 9PM</option>
+                <option value="21">9PM - 10PM</option>
+                <option value="22">10PM - 11PM</option>
+                <option value="23">11PM - 12PM</option>
+                <option value="24">12PM - 1AM</option>
+                
+            </select>
+        </div>
+
+        <div class="d-flex mb-2">
+            <label for="lunch-time" class="pe-2">Set Lunch Time</label>
+            <select name="" id="lunch-time">
+                <option value="1">1AM - 2AM</option>
+                <option value="2">2AM - 3AM</option>
+                <option value="3">3AM - 4AM</option>
+                <option value="4">4AM - 5AM</option>
+                <option value="5">5AM - 6AM</option>
+                <option value="6">6AM - 7AM</option>
+                <option value="7">7AM - 8AM</option>
+                <option value="8">8AM - 9AM</option>
+                <option value="9">9AM - 10AM</option>
+                <option value="10">10AM - 11AM</option>
+                <option value="11">11AM - 12PM</option>
+                <option value="12" selected>12PM - 1PM</option>
+                <option value="13">1PM - 2PM</option>
+                <option value="14">2PM - 3PM</option>
+                <option value="15">3PM - 4PM</option>
+                <option value="16">4PM - 5PM</option>
+                <option value="17">5PM - 6PM</option>
+                <option value="18">6PM - 7PM</option>
+                <option value="19">7PM - 8PM</option>
+                <option value="20">8PM - 9PM</option>
+                <option value="21">9PM - 10PM</option>
+                <option value="22">10PM - 11PM</option>
+                <option value="23">11PM - 12PM</option>
+                <option value="24">12PM - 1AM</option>
+                
+            </select>
+        </div>
+
+        <div class="d-flex mb-3">
+            <label for="nap-time" class="pe-2">Set Nap Time</label>
+            <select name="" id="nap-time">
+                <option value="1">1AM - 2AM</option>
+                <option value="2">2AM - 3AM</option>
+                <option value="3">3AM - 4AM</option>
+                <option value="4">4AM - 5AM</option>
+                <option value="5">5AM - 6AM</option>
+                <option value="6" selected>6AM - 7AM</option>
+                <option value="7">7AM - 8AM</option>
+                <option value="8">8AM - 9AM</option>
+                <option value="9">9AM - 10AM</option>
+                <option value="10">10AM - 11AM</option>
+                <option value="11">11AM - 12PM</option>
+                <option value="12">12PM - 1PM</option>
+                <option value="13">1PM - 2PM</option>
+                <option value="14" selected>2PM - 3PM</option>
+                <option value="15">3PM - 4PM</option>
+                <option value="16">4PM - 5PM</option>
+                <option value="17">5PM - 6PM</option>
+                <option value="18">6PM - 7PM</option>
+                <option value="19">7PM - 8PM</option>
+                <option value="20">8PM - 9PM</option>
+                <option value="21">9PM - 10PM</option>
+                <option value="22">10PM - 11PM</option>
+                <option value="23">11PM - 12PM</option>
+                <option value="24">12PM - 1AM</option>
+                
+            </select>
+        </div>
+
+        <button class="px-5 py-2 mb-3 mt-2 h4 rounded btn-party" id="btn-party">Party Time</button>
+        <small class="">&copy; HMN 2024</small>
+    </div>
+  <!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>  
+<script src="script.js"></script>
+</body>
+</html>

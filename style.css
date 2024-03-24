@@ -1,0 +1,35 @@
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body{
+    font-family: "Tektur", sans-serif;
+}
+
+h1{
+   font-family: "Rubik Doodle Shadow", system-ui;
+   font-weight: bold;
+}
+
+select{
+    font-size: 12px;
+}
+
+.puppy-img{
+    
+}
+
+.btn-party{
+    border: 2px solid rgb(130, 95, 7);
+    outline: 0;
+    transition: all 1s;
+}
+
+.btn-party:hover{
+    background-color: rgb(133, 99, 55);
+    color: #fff;
+    border: 1px solid #fff;
+}
